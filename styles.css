@@ -1,0 +1,281 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 60px;
+    font-size: large;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    border-bottom: 2px solid #fff;
+    text-decoration: none;
+}
+
+
+.hero {
+    padding:10px;
+    background-image: url('gymroom.jpg');
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+   color:#fff;
+    text-align: center;
+    
+   
+}
+.hero h1{
+    
+    color: black;
+}
+.hero p{
+ color: black;
+ 
+}
+#about h2{
+        text-align: center;
+         margin-right:30px;
+}
+
+#about, #contact {
+    background-color: darkgray;
+    padding:5px;
+    
+}
+
+.about-content h2{
+border: 1px solid;
+width: 10%;
+border-radius: 20px;
+margin-left: 655px;
+background-color: black;
+color: white;
+}
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin:0;
+    padding: 0
+    
+}
+
+.cta-button:hover {
+    background-color: black;
+}
+
+
+.services-content  {
+   display: flex; 
+
+}
+.services-content h2{
+border: 1px solid;
+width: 100%;
+border-radius: 20px;
+
+background-color: black;
+color: white;
+}
+#img1:hover{
+    height: 500px;
+    transform: scale(1.02);
+
+}
+#img1{
+    padding: 30px;
+    transition: all 0.9s;
+
+}
+#img2:hover{
+    height: 500px;
+    transform: scale(1.02);
+
+}
+#img2 {
+    padding: 30px;
+    transition: all 0.9s;
+    
+
+}
+#img3:hover{
+    height: 500px;
+    transform: scale(1.02);
+
+}
+#img3 {
+    padding: 30px;
+    transition: all 0.9s;
+    
+
+}
+.contact-details{
+    background-color: rgb(0, 0, 64);
+    color:blue;
+ padding: 30px;
+ text-align: center;
+}
+#contact h1{
+    text-align: center;
+}
+.contact-content h1{
+border: 1px solid;
+width: 15%;
+border-radius: 20px;
+margin-left: 630px;
+background-color: black;
+color: white;
+padding: 15px;
+}
+.contact-details i:hover{
+transform: scale(1.02);
+
+}
+.contact-details h3{
+    color: wheat;
+
+}
+p{
+    color: white;
+    
+     
+}
+
+.table
+{
+    border: 2px solid black;
+    margin-left: 20%;
+    margin-right:80%;
+    transition: all 0.9s;
+
+}
+table:hover{
+    transform: scale(1.02);
+
+}
+.th1
+{
+    background: lightcoral;
+}
+.p1{
+margin-left: 20%;
+}
+.a1
+{
+    float: right;
+
+}
+#img5
+{
+    border-radius:30px ;
+    height: 100px;
+    width: 100px;
+    margin-left: 46%;
+    margin-right: 50%;
+}
+.h1{
+    text-align: center;
+    color: blanchedalmond;
+}
+
+div1
+{
+    background-color:rgb(135, 236, 33) ;
+    border-radius: 23px;
+    margin: 20px 30px;
+    padding: 13px;
+    border: 2px solid white;
+}
+.div2
+{
+    border: 2px solid white;
+    border-radius: 13px;
+    margin: 10px 500px;
+    padding: 16px;
+    background: lightgrey;
+    }
+label
+{
+    margin-right: 133px;
+    margin-left: 1px;
+
+}
+.input1
+{
+    
+    width: 200px;
+    height: 20px;
+    margin-left: 50%;
+    margin-left: 50%;
+
+}
+h2
+{
+    margin-left: 20px;
+}
+.container{
+    display: flex;
+    margin: 30px 200px;
+} 
+.box{
+    display: flex;
+    flex-direction: column;margin-right: 60px;
+    
+    
+}
+ .footer{
+    
+    padding:20px;
+    background-color: rgb(0, 0, 64);
+    color: white;
+    height: 350px;
+    margin-top: 40px;
+}
+section{
+    margin:0;
+    padding: 0
+    
+}
+div{
+    margin:0;
+    padding: 0
+    
+}
+footer {
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    padding: 9px;
+    margin: 0px;
+}
